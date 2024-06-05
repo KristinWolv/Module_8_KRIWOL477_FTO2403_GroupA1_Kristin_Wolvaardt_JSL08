@@ -30,7 +30,7 @@ class BankBranch{
 // branchA
 const branchA = new BankBranch("Location: Cape Town");
 
-// secuirity
+// secuirity (The Object.freeze method is used to make the instances immutable, preventing modifications to their properties.)
 Object.freeze(branchA);
 
 //    - Use the `getBranchInfo` method to retrieve branch information from the instances.
@@ -39,7 +39,7 @@ console.log("Branch Information: " + branchA.getBranchInfo());
 // branchB
 const branchB = new BankBranch("Location: Pretoria");
 
-// secuirity
+// secuirity (The Object.freeze method is used to make the instances immutable, preventing modifications to their properties.)
 Object.freeze(branchB);
 
 //    - Use the `getBranchInfo` method to retrieve branch information from the instances.
